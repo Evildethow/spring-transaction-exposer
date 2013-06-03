@@ -1,4 +1,4 @@
-package org.evildethow.spring_transaction_exposer.dao.aop;
+package org.evildethow.spring_transaction_exposer.aop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;

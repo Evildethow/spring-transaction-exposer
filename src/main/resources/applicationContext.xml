@@ -25,5 +25,5 @@
     <bean name="springJdbcDao" class="org.evildethow.spring_transaction_exposer.dao.SpringJdbcDao"/>
 
     <!-- Aspect -->
-    <bean id="transactionActiveAspect" class="org.evildethow.spring_transaction_exposer.dao.aop.TransactionActiveAspect" />
+    <bean id="transactionActiveAspect" class="org.evildethow.spring_transaction_exposer.aop.TransactionActiveAspect" />
 </beans>
