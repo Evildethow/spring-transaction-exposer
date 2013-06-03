@@ -5,7 +5,7 @@ import org.springframework.transaction.support.TransactionSynchronizationManager
 
 public class SpringJdbcDao {
 
-    public boolean nonTransactionalMethod(String arg) {
+    public boolean nonTransactionalMethod() {
         return TransactionSynchronizationManager.isActualTransactionActive();
     }
 

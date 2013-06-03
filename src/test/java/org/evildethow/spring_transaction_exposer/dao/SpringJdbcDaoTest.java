@@ -17,7 +17,7 @@ public class SpringJdbcDaoTest {
 
     @Test
     public void assertNoTransactionForNonTransactionalMethod() {
-        Assert.assertFalse(springJdbcDao.nonTransactionalMethod("test"));
+        Assert.assertFalse(springJdbcDao.nonTransactionalMethod());
     }
 
     @Test
